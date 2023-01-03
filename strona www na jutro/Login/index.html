@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Login/styles.css">
+    <link rel="icon" href="../img/mini.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+<body>
+    <div class="full-page">
+        
+            <div class="hero">
+                <nav>
+                    <h2 class="logo">Nikita<span>Cars</span></h2>
+                    <ul>
+                        <li><a href="../index.html">Strona Główna</a></li>
+                        <li><a href="../O nas/index.html">O nas</a></li>
+                        <li><a href="../Usługi/index.html">Usługi</a></li>
+                        <li><a href="../Kontakt/index.html">Kontakt</a></li>
+                        <li><a href="../kalkulator/index.html">Kalkulator</a></li>
+                        <li><a href="../podstrona/index.html">Podstrona</a></li>
+                    </ul>
+                    
+                </nav>
+        
+                <div class="content">
+                    <div class="row">
+                        <div class="col-1">
+                            <div class="form-box">
+                                <div class="form">
+                                    <form class="login-form">
+                                        <center><h1 class="main-heading">Logowanie</h1></center>
+                                        <input type="text"placeholder="Nazwa Użytkownika"/>
+                                        <input type="password"placeholder="Hasło"/>
+                                        <button>ZALOGUJ</button>
+                                        <p class="message">Nie masz konta? <a href="#">Stwórz nowe!</a></p>
+                                    </form>
+                                    <form class="register-form">
+                                        <center><h1 class="main-heading">Rejestracja</h1></center>
+                                        <input type="text" placeholder="Nazwa Użytkownika"/>
+                                        <input type="text" placeholder="Email"/>
+                                        <input type="password" placeholder="Hasło"/>
+                                        <button>Zarejestruj się</button>
+                                        <p class="message">Masz już konto?<a href="#"> Zaloguj sie!</a>
+                                        </p>
+                                    </form>
+                                 </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="service">
+                <div class="title">
+                    <h2>O nas</h2>
+                </div>
+        
+                <div class="box">
+                    <div class="card">
+                        <i class="fas fa-bars"></i>
+                        <h5>Kalkulator kosztów</h5>
+                        <div class="pra">
+                            <p>Oblicz koszt wysyłki samochodu z Ameryki do Polska. Cła, odprawa aukcyjna, transport lądowy do portu USA.</p>
+        
+                            <p style="text-align: center;">
+                                <a class="button" href="#">Oblicz koszty</a>
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div class="card">
+                        <i class="far fa-user"></i>
+                        <h5>Dostępne samochody z USA</h5>
+                        <div class="pra">
+                            <p>Specjalna sekcja witryny, w której możesz kupić samochody, które są w drodze lub są już w Częstochowie.</p>
+        
+                            <p style="text-align: center;">
+                                <a class="button" href="#">Przejdź do Katalogu</a>
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div class="card">
+                        <i class="far fa-bell"></i>
+                        <h5>Śledzenie kontenerów</h5>
+                        <div class="pra">
+                            <p>Usługa umożliwia klientom NikitaCars śledzenie rzeczywistej lokalizacji samochodu w czasie rzeczywistym.</p>
+        
+                            <p style="text-align: center;">
+                                <a class="button" href="#">Śledź kontener</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-me">
+                    <p>Skorzystaj z oferty znalezienia już teraz!</p>
+                    <a class="button-two" href="#">Wybierz auto</a>
+                </div>
+            
+                
+                <footer>
+                    <p>NikitaCars</p>
+                    <p>Nie chcesz czekać? Napisz do nas!</p>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                    <p class="end">CopyRight By NikitaCars</p>
+                </footer>
+       
+    </div>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+    </script>
+    <script>
+        $('.message a').click(function(){$('form').animate({height: "toggle",opacity: "toggle"},"slow");});
+    </script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalkulator</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="icon" href="../img/mini.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	<div class="hero">
+		<nav>
+			<h2 class="logo">Nikita<span>Cars</span></h2>
+			<ul>
+				<li><a href="../index.html">Strona Główna</a></li>
+				<li><a href="../O nas/index.html">O nas</a></li>
+				<li><a href="../Usługi/index.html">Usługi</a></li>
+				<li><a href="../Kontakt/index.html">Kontakt</a></li>
+				<li><a href="../kalkulator/index.html">Kalkulator</a></li>
+				<li><a href="../podstrona/index.html">Podstrona</a></li>
+			</ul>
+			<a href="../Login/index.html" class="btn">Zaloguj się</a>
+		</nav>
+
+		<div class="content">
+			
+			
+			<h4>Kalkulator</h4>
+            <h6>Liczba 1 / cena benzyny <input type="text" id="liczba1"><br><br></h6>
+            <h6>Liczba 2 /droga<input type="text" id="liczba2"><br><br></h6>
+            <h6>Liczba 3 / spalanie <input type="text" id="liczba3"><br><br></h6>
+            <h3>Wynik: <div id="wynik"> </div></h3>
+            <h4><button onclick="dodaj()">DODAJ</button>
+            <button onclick="odejmij()">ODEJMIJ</button>
+            <button onclick="mnozenie()">MNÓŻ</button>
+            <button onclick="dziel()">DZIEL</button>
+            <button onclick="srednia()">Srednia</button><br><br>
+            <button onclick="pierwiastek()">Pierwiastek</button><br><br>
+			<button onclick="kolo()">Kolo</button><br><br>
+			<button onclick="benzyna()">Cena Benzyny</button><br><br>
+			<button onclick="zysk()">Zysk</button><br><br>
+            
+			
+		</div>
+        
+	</div>
+    
+
+	
+
+	
+	<div class="service">
+		<div class="title">
+			<h2>O nas</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5>Kalkulator kosztów</h5>
+				<div class="pra">
+					<p>Oblicz koszt wysyłki samochodu z Ameryki do Polska. Cła, odprawa aukcyjna, transport lądowy do portu USA.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Oblicz koszty</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5>Dostępne samochody z USA</h5>
+				<div class="pra">
+					<p>Specjalna sekcja witryny, w której możesz kupić samochody, które są w drodze lub są już w Częstochowie.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="">Przejdź do Katalogu</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Śledzenie kontenerów</h5>
+				<div class="pra">
+					<p>Usługa umożliwia klientom NikitaCars śledzenie rzeczywistej lokalizacji samochodu w czasie rzeczywistym.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Śledź kontener</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="contact-me">
+		<p>Skorzystaj z oferty znalezienia już teraz!</p>
+		<a class="button-two" href="#">Wybierz auto</a>
+	</div>
+
+	
+	<footer>
+		<p>NikitaCars</p>
+		<p>Nie chcesz czekać? Napisz do nas!</p>
+		<div class="social">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-dribbble"></i></a>
+		</div>
+		<p class="end">CopyRight By NikitaCars</p>
+	</footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
